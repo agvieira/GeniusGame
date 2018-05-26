@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		068FB01739FEF715F90083FD /* Pods_GeniusGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13320B5CDC84D64D8B517023 /* Pods_GeniusGameTests.framework */; };
 		4747089C20B9794300D76BA2 /* GeniusGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747089B20B9794300D76BA2 /* GeniusGameTests.swift */; };
 		474708BB20B97A9900D76BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474708A720B97A9900D76BA2 /* LaunchScreen.storyboard */; };
 		474708BC20B97A9900D76BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474708A820B97A9900D76BA2 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		474708BE20B97A9900D76BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474708AC20B97A9900D76BA2 /* AppDelegate.swift */; };
 		474708BF20B97A9900D76BA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474708B120B97A9900D76BA2 /* ViewController.swift */; };
 		474708C020B97A9900D76BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474708B720B97A9900D76BA2 /* Main.storyboard */; };
+		4D7A8F4909110F824657D9CE /* Pods_GeniusGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95D1D10EF9187409B4133B5 /* Pods_GeniusGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13320B5CDC84D64D8B517023 /* Pods_GeniusGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4747088320B9794100D76BA2 /* GeniusGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeniusGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4747089720B9794300D76BA2 /* GeniusGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4747089B20B9794300D76BA2 /* GeniusGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusGameTests.swift; sourceTree = "<group>"; };
@@ -37,6 +40,11 @@
 		474708AC20B97A9900D76BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		474708B120B97A9900D76BA2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		474708B720B97A9900D76BA2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6D49B2A3D693522C12B33A63 /* Pods-GeniusGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusGameTests/Pods-GeniusGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84E8B1059C1B63C57BE04384 /* Pods-GeniusGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusGame/Pods-GeniusGame.debug.xcconfig"; sourceTree = "<group>"; };
+		86AF5C213D4A143F4CE5C036 /* Pods-GeniusGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusGameTests/Pods-GeniusGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3239B960AEC0EE7399880C2 /* Pods-GeniusGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusGame/Pods-GeniusGame.release.xcconfig"; sourceTree = "<group>"; };
+		E95D1D10EF9187409B4133B5 /* Pods_GeniusGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7A8F4909110F824657D9CE /* Pods_GeniusGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068FB01739FEF715F90083FD /* Pods_GeniusGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +73,8 @@
 				4747088520B9794100D76BA2 /* GeniusGame */,
 				4747089A20B9794300D76BA2 /* GeniusGameTests */,
 				4747088420B9794100D76BA2 /* Products */,
+				D30F9110F6968DAE75B0CF96 /* Pods */,
+				6E51221A925BB7A1179B18E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,6 +229,26 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		6E51221A925BB7A1179B18E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E95D1D10EF9187409B4133B5 /* Pods_GeniusGame.framework */,
+				13320B5CDC84D64D8B517023 /* Pods_GeniusGameTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D30F9110F6968DAE75B0CF96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84E8B1059C1B63C57BE04384 /* Pods-GeniusGame.debug.xcconfig */,
+				D3239B960AEC0EE7399880C2 /* Pods-GeniusGame.release.xcconfig */,
+				6D49B2A3D693522C12B33A63 /* Pods-GeniusGameTests.debug.xcconfig */,
+				86AF5C213D4A143F4CE5C036 /* Pods-GeniusGameTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 474708A020B9794300D76BA2 /* Build configuration list for PBXNativeTarget "GeniusGame" */;
 			buildPhases = (
+				9D56B6D8F8BF9FA833AF57A4 /* [CP] Check Pods Manifest.lock */,
 				4747087F20B9794100D76BA2 /* Sources */,
 				4747088020B9794100D76BA2 /* Frameworks */,
 				4747088120B9794100D76BA2 /* Resources */,
+				418CC252F0CB16AE92134E39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 474708A320B9794300D76BA2 /* Build configuration list for PBXNativeTarget "GeniusGameTests" */;
 			buildPhases = (
+				59A96104BD28A2B5BD3D3B2D /* [CP] Check Pods Manifest.lock */,
 				4747089320B9794300D76BA2 /* Sources */,
 				4747089420B9794300D76BA2 /* Frameworks */,
 				4747089520B9794300D76BA2 /* Resources */,
@@ -313,6 +348,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		418CC252F0CB16AE92134E39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GeniusGame/Pods-GeniusGame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusGame/Pods-GeniusGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A96104BD28A2B5BD3D3B2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeniusGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D56B6D8F8BF9FA833AF57A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeniusGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4747087F20B9794100D76BA2 /* Sources */ = {
@@ -459,6 +551,7 @@
 		};
 		474708A120B9794300D76BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E8B1059C1B63C57BE04384 /* Pods-GeniusGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -477,6 +570,7 @@
 		};
 		474708A220B9794300D76BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3239B960AEC0EE7399880C2 /* Pods-GeniusGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +589,7 @@
 		};
 		474708A420B9794300D76BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D49B2A3D693522C12B33A63 /* Pods-GeniusGameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +611,7 @@
 		};
 		474708A520B9794300D76BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86AF5C213D4A143F4CE5C036 /* Pods-GeniusGameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
