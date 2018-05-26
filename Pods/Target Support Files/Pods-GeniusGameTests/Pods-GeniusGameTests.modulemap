@@ -1,6 +1,0 @@
-framework module Pods_GeniusGameTests {
-  umbrella header "Pods-GeniusGameTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
