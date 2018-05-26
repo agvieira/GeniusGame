@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
+    
+    private lazy var label: UILabel = {
+        let label = UILabel()
+        label.text = "Genius Game"
+        label.textColor = .black
+        label.textAlignment = .center
+        return label
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.addSubview(label)
+        label.snp.makeConstraints { $0.edges.equalToSuperview() }
     }
 
     override func didReceiveMemoryWarning() {
